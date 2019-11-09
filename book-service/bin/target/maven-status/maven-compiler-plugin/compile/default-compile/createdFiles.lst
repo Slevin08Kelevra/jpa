@@ -1,0 +1,5 @@
+com\example\spring\rest\Book.class
+com\example\spring\rest\Person.class
+com\example\spring\rest\PersonRepository.class
+com\example\spring\rest\BookRepository.class
+com\example\spring\rest\App.class

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="consoleAppender" class="org.apache.log4j.ConsoleAppender">
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern" value="%d{dd MMM yyyy HH:mm:ss} %5p %c{1} - %m%n"/>
+      </layout>
+    </appender>
+    
+    <appender name="ASYNC-HIBERNATE" class="org.apache.log4j.AsyncAppender">
+	    <param name="blocking" value="false" />
+        <param name="bufferSize" value="1000" />
+        <appender-ref ref="HIBERNATE" />
+	</appender>
+    
+    <appender name="HIBERNATE" class="org.apache.log4j.RollingFileAppender">
+        <param name="File" value="/home/pablo.paparini/MVCRESTFULL/hibernate.log" />
+        <param name="Append" value="true" />
+        <param name="MaxFileSize" value="25MB" />
+        <param name="MaxBackupIndex" value="5" />
+
+        <layout class="org.apache.log4j.PatternLayout">
+            <!-- The pattern: Date Priority [Category:Method] Message\n -->
+            <param name="ConversionPattern" value="%d %-5p %t ConvoId=%X{ConversationId} CorrId=%X{CorrelationId} PageId=%X{PageId} [%c] %m%n" />
+        </layout>
+
+        <!-- <filter class="org.apache.log4j.varia.LevelRangeFilter">
+            <param name="LevelMin" value="TRACE" />
+            <param name="LevelMax" value="ERROR" />
+            <param name="AcceptOnMatch" value="true " />
+        </filter> -->
+    </appender>
+    
+    <!-- <appender name="webPersist" class="org.apache.log4j.RollingFileAppender">
+		<param name="maxFileSize" value="100KB" />
+		<param name="maxBackupIndex" value="5" />
+		<param name="File" value="${env.home}/persist.log" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MMM-yyyy HH:mm:ss,SSS} %5p %c{1}:%L - %m%n" />
+		</layout>
+	</appender> -->
+	
+	<appender name="rootAppender" class="org.apache.log4j.RollingFileAppender">
+		<param name="maxFileSize" value="100KB" />
+		<param name="maxBackupIndex" value="5" />
+		<param name="File" value="/home/pablo.paparini/MVCRESTFULL/root.log" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd-MMM-yyyy HH:mm:ss,SSS} %5p %c{1}:%L - %m%n" />
+		</layout>
+	</appender>
+	
+	<!-- <logger name="ar.project.persist" additivity="false">
+	    <level value="${log.level}"></level>
+		<appender-ref ref="webPersist" />
+	</logger> -->
+	
+	<category
+        name="org.hibernate.SQL">
+        <param name="additivity" value="false" />
+        <priority value="DEBUG" />
+        <appender-ref ref="ASYNC-HIBERNATE" />
+    </category>
+    
+    <category
+        name="org.hibernate.type">
+        <param name="additivity" value="false" />
+        <priority value="DEBUG" />
+        <appender-ref ref="ASYNC-HIBERNATE" />
+    </category>
+	
+	<root>
+		<priority value="ALL" />
+		<appender-ref ref="rootAppender" />
+	</root>
+
+</log4j:configuration>

@@ -1,0 +1,104 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-04-11 15:30:35 #1 store] 
+Database 'C:\Users\pablo.paparini\Dropbox\REPOSITORIOS\JPA\signature\Guestbook\db\guests.odb' is opened by 9244@BUEMRM-NW70328
+
+[2017-04-11 15:30:36 #2 type] 
+Type com.project.persist.area.ent.Persona is not enhanced.
+
+[2017-04-11 15:30:36 #3 type] 
+Type com.project.persist.area.ent.PersonTag is not enhanced.
+
+[2017-04-11 15:30:36 #4 type] 
+Type com.project.persist.area.ent.Language is not enhanced.
+
+[2017-04-11 15:30:36 #5 type] 
+Type com.project.persist.area.ent.PersonaExt is not enhanced.
+
+[2017-04-11 15:30:36 #6 type] 
+Type com.project.persist.area.ent.Country is not enhanced.
+
+[2017-04-11 15:30:36 #7 type] 
+Type com.project.persist.area.ent.Guest is not enhanced.
+
+[2017-04-11 15:53:56 #8 store] 
+Database 'C:\Users\pablo.paparini\Dropbox\REPOSITORIOS\JPA\signature\Guestbook\db\guests.odb' is closed by 9244@BUEMRM-NW70328
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-04-11 16:00:55 #1 store] 
+Database 'C:\Users\pablo.paparini\Dropbox\REPOSITORIOS\JPA\signature\Guestbook\db\guests.odb' is opened by 5352@BUEMRM-NW70328
+
+[2017-04-11 16:00:55 #2 type] 
+Type com.project.persist.area.ent.Persona is not enhanced.
+
+[2017-04-11 16:00:55 #3 type] 
+Type com.project.persist.area.ent.PersonTag is not enhanced.
+
+[2017-04-11 16:00:55 #4 type] 
+Type com.project.persist.area.ent.Language is not enhanced.
+
+[2017-04-11 16:00:55 #5 type] 
+Type com.project.persist.area.ent.PersonaExt is not enhanced.
+
+[2017-04-11 16:00:55 #6 type] 
+Type com.project.persist.area.ent.Country is not enhanced.
+
+[2017-04-11 16:00:55 #7 type] 
+Type com.project.persist.area.ent.Guest is not enhanced.
+
+[2017-04-11 16:22:47 #8 store] 
+Database 'C:\Users\pablo.paparini\Dropbox\REPOSITORIOS\JPA\signature\Guestbook\db\guests.odb' is closed by 5352@BUEMRM-NW70328
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-04-11 16:46:07 #1 store] 
+Database 'C:\Users\pablo.paparini\Dropbox\REPOSITORIOS\JPA\signature\Guestbook\db\guests.odb' is opened by 8456@BUEMRM-NW70328
+
+[2017-04-11 16:46:08 #2 type] 
+Type com.project.persist.area.ent.Persona is not enhanced.
+
+[2017-04-11 16:46:08 #3 type] 
+Type com.project.persist.area.ent.PersonTag is not enhanced.
+
+[2017-04-11 16:46:08 #4 type] 
+Type com.project.persist.area.ent.Language is not enhanced.
+
+[2017-04-11 16:46:08 #5 type] 
+Type com.project.persist.area.ent.PersonaExt is not enhanced.
+
+[2017-04-11 16:46:08 #6 type] 
+Type com.project.persist.area.ent.Country is not enhanced.
+
+[2017-04-11 16:46:08 #7 type] 
+Type com.project.persist.area.ent.Guest is not enhanced.
+
+[2017-04-11 16:59:12 #8 store] 
+Database 'C:\Users\pablo.paparini\Dropbox\REPOSITORIOS\JPA\signature\Guestbook\db\guests.odb' is closed by 8456@BUEMRM-NW70328
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2017-04-11 17:00:50 #1 store] 
+Database 'C:\Users\pablo.paparini\Dropbox\REPOSITORIOS\JPA\signature\Guestbook\db\guests.odb' is opened by 11836@BUEMRM-NW70328
+
+[2017-04-11 17:00:50 #2 type] 
+Type com.project.persist.area.ent.Persona is not enhanced.
+
+[2017-04-11 17:00:50 #3 type] 
+Type com.project.persist.area.ent.PersonTag is not enhanced.
+
+[2017-04-11 17:00:50 #4 type] 
+Type com.project.persist.area.ent.Language is not enhanced.
+
+[2017-04-11 17:00:50 #5 type] 
+Type com.project.persist.area.ent.PersonaExt is not enhanced.
+
+[2017-04-11 17:00:50 #6 type] 
+Type com.project.persist.area.ent.Country is not enhanced.
+
+[2017-04-11 17:00:50 #7 type] 
+Type com.project.persist.area.ent.Guest is not enhanced.
+
+[2017-04-13 16:40:48 #8 store] 
+Database 'C:\Users\pablo.paparini\Dropbox\REPOSITORIOS\JPA\signature\Guestbook\db\guests.odb' is closed by 11836@BUEMRM-NW70328
+

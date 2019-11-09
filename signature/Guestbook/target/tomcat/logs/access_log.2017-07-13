@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [13/Jul/2017:15:26:13 -0300] "GET /ProjectOne/personas?nombre=estevan HTTP/1.1" 404 - http-bio-8095-exec-2 0
+0:0:0:0:0:0:0:1 - - [13/Jul/2017:15:26:21 -0300] "GET /ProjectOne/personas?nombre=estevan HTTP/1.1" 404 - http-bio-8095-exec-3 0
+0:0:0:0:0:0:0:1 - - [13/Jul/2017:15:26:27 -0300] "GET /ProjectOne/personas HTTP/1.1" 404 - http-bio-8095-exec-4 0
+0:0:0:0:0:0:0:1 - - [13/Jul/2017:15:27:49 -0300] "GET /ProjectOne/personas HTTP/1.1" 404 - http-bio-8095-exec-2 0
+0:0:0:0:0:0:0:1 - - [13/Jul/2017:15:30:43 -0300] "GET /ProjectOne/personas HTTP/1.1" 404 - http-bio-8095-exec-2 0
+0:0:0:0:0:0:0:1 - - [13/Jul/2017:15:31:22 -0300] "GET /ProjectOne/guest HTTP/1.1" 404 - http-bio-8095-exec-4 0

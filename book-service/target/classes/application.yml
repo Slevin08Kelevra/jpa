@@ -1,0 +1,11 @@
+name: prod-YAML
+environment: production
+servers: 
+    - www.abc.com
+    - www.xyz.com
+    
+attenders:
+    - name: Pablo
+      job: Operator
+    - name: Jon
+      job: Dierector
